@@ -1,0 +1,13 @@
+# This is just an example! Please see available options to customize Navidrome for your needs at
+# https://www.navidrome.org/docs/usage/configuration-options/#available-options
+
+LogLevel = 'DEBUG'
+ScanSchedule = '@every 24h'
+TranscodingCacheSize = '150MiB'
+Port = '4533'
+
+# IMPORTANT: Use single quotes for paths in Windows
+MusicFolder = 'DriveLetter:\Path-to\Music'
+
+# Set this to the path of your ffmpeg executable
+FFmpegPath = 'DriveLetter:\Navidrome\ffmpeg\bin\ffmpeg.exe'
